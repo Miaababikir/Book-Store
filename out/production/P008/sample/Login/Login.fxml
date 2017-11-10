@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="372.0" prefWidth="449.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Login.loginController">
+   <children>
+      <VBox alignment="CENTER" layoutX="269.0" layoutY="66.0" prefHeight="372.0" prefWidth="449.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text fill="#4a4646" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+            <JFXTextField fx:id="username" labelFloat="true" maxWidth="377.0" minWidth="377.0" prefHeight="31.0" prefWidth="257.0" promptText="Username" unFocusColor="BLACK">
+               <VBox.margin>
+                  <Insets left="35.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <JFXPasswordField fx:id="password" labelFloat="true" maxWidth="377.0" minWidth="333.0" prefHeight="31.0" prefWidth="333.0" unFocusColor="BLACK">
+               <VBox.margin>
+                  <Insets left="35.0" top="20.0" />
+               </VBox.margin>
+            </JFXPasswordField>
+            <HBox alignment="CENTER" prefHeight="144.0" prefWidth="449.0">
+               <children>
+                  <JFXButton buttonType="RAISED" onAction="#login" prefHeight="40.0" prefWidth="122.0" style="-fx-background-color: #777777;" text="Login" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" onAction="#exit" prefHeight="40.0" prefWidth="122.0" style="-fx-background-color: #777777;" text="Cancel" textFill="WHITE" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

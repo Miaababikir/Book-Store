@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Nov 10 14:21:10 EAT 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-015f-a5a9-81aa-000008f61888 
+on database directory /home/mosab/IdeaProjects/P008/database with class loader sun.misc.Launcher$AppClassLoader@45ee12a7 
+Loaded from file:/home/mosab/Downloads/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_121-b13
+user.dir=/home/mosab/IdeaProjects/P008
+os.name=Linux
+os.arch=amd64
+os.version=4.10.0-37-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

@@ -1,0 +1,88 @@
+.setup-button
+{
+
+    -fx-background-color:  #37474F;
+    -fx-text-fill: white;
+
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+
+
+}
+
+.setup-button:hover
+{
+    -fx-text-fill: white;
+    -fx-background-color:  #212121;
+}
+
+.text-field
+{
+
+    -fx-text-fill: white;
+}
+
+.custom-dashed-border
+{
+    -fx-border-color: #37474F ;
+    -fx-border-width: 2 ;
+    -fx-background-radius: 5;
+}
+
+.v-box
+{
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.text-field
+{
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.btn
+{
+
+    -fx-background-color:  #FFFFFF;
+    -fx-text-fill: black;
+}
+
+.btn:hover{
+
+    -fx-text-fill: white;
+    -fx-background-color:  #009688;
+
+}
+
+.btn-border{
+
+    -fx-border-color: #009688 ;
+    -fx-border-width: 2 ;
+    -fx-background-radius: 5;
+
+}
+
+.v-border{
+
+    -fx-border-color: #009688 ;
+    -fx-border-width: 2 ;
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+}
+
+.upload-border{
+
+    -fx-border-color: #00897B ;
+    -fx-border-width: 2 ;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+
+}
+
+.jfx-combobox{
+
+    -fx-text-fill: white;
+    -fx-background-color:   #37474F;
+
+}
